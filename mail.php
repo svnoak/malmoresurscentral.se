@@ -4,7 +4,7 @@ $email = $_POST['email'];
 $dropdown = $_POST['service'];
 $message = $_POST['message'];
 $formcontent="Namn: $name \nKontaktmejl: $email \nTjänst: $dropdown \nMeddelande: $message";
-$recipient = "kontakt@malmoresurscentral.se";
+$recipient = "recipient_email";
 $subject = "Mejl ang: $dropdown";
 $mailheader = "From: $email \r\n";
 if(!empty($_POST['website'])) die();
